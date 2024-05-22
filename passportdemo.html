@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Passport Automation System</title>
+  <link rel="stylesheet" href="styles.css">
+<style>
+#home{
+  background-image: url(home.jpg);
+  height:650px;
+  
+}
+h1{
+  text-align: center;
+}
+p{
+  text-transform: capitalize;
+  font-size: medium;
+}
+button{
+  background-color: burlywood;
+  position: absolute;
+  top: 50%;
+  padding: 1vh;
+  border-radius: 8px;
+  align-items: center;
+  justify-items:center;
+ 
+}
+.btn{
+  padding-left: 45%;
+
+}
+
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Passport Automation System</h1>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="register.html">Register</a></li>
+    <li><a href="login.html">Login</a></li>
+    <li><a href="apply.html">Apply for Passport</a></li>
+    <li><a href="schedule.html">Schedule Appointment</a></li>
+    <li><a href="track.html">Track Application</a></li>
+  </ul>
+</nav>
+
+<section id="home">
+  
+    <h1>Welcome to Passport Automation System</h1>
+  <p><strong>Streamline your passport application process online.The Passport Automation System is a state-of-the-art digital platform developed to simplify and expedite passport-related services. It integrates advanced technologies such as biometrics, machine learning algorithms, and secure data encryption to provide a secure and user-friendly experience for applicants.</strong></p>
+  <div class="btn"><button type="button"  onclick="redirect()">APPLY NOW</button></div>
+  
+  
+
+</section>
+
+<footer>
+  <p>&copy; 2024 Passport Automation System</p>
+</footer>
+
+<script src="scripts.js"></script>
+<script>
+  function redirect()
+  {
+    window.location.href="register.html"
+  }
+</script>
+</body>
+
+</html>
